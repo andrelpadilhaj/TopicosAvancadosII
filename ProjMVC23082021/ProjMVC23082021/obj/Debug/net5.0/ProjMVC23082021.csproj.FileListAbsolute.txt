@@ -152,7 +152,6 @@ C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancados
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\ProjMVC23082021\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\ProjMVC23082021\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\ProjMVC23082021\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\ProjMVC23082021\obj\Debug\net5.0\ProjMVC23082021.csproj.AssemblyReference.cache
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\ProjMVC23082021\obj\Debug\net5.0\Razor\Views\Produto\Create.cshtml.g.cs
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\ProjMVC23082021\obj\Debug\net5.0\Razor\Views\Produto\Delete.cshtml.g.cs
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\ProjMVC23082021\obj\Debug\net5.0\Razor\Views\Produto\Details.cshtml.g.cs
@@ -168,3 +167,4 @@ C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancados
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\ProjMVC23082021\obj\Debug\net5.0\Razor\Views\Fornecedor\Details.cshtml.g.cs
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\ProjMVC23082021\obj\Debug\net5.0\Razor\Views\Fornecedor\Edit.cshtml.g.cs
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\ProjMVC23082021\obj\Debug\net5.0\Razor\Views\Fornecedor\Index.cshtml.g.cs
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\ProjMVC23082021\obj\Debug\net5.0\ProjMVC23082021.csproj.AssemblyReference.cache

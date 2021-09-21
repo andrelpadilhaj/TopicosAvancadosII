@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "lDTn5vguoLxVS66wpn4bZMQBwyyfBtxVyVt5hoo3aGUam4iV+N8iavdG14JF3Jfe5/SxmzfI1BSLwJvznBI9cg==",
+  "dgSpecHash": "kY1Eft4klsazQlXGs0cl2kRl0tFAEb0b+8Aa6Yqk2ceIZuGrJMWDHcRkDmpyk16FaGUxuvDxCUKCrrK49CKC9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\dezao\\OneDrive\\Documentos\\Desenvolvimento\\Faculdade\\C#\\TopicosAvancadosII\\ProjMVC23082021\\ProjMVC23082021\\ProjMVC23082021.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dezao\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\dezao\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\dezao\\.nuget\\packages\\inputmask\\5.0.6\\inputmask.5.0.6.nupkg.sha512",
+    "C:\\Users\\dezao\\.nuget\\packages\\jquery.inputmask\\5.0.6\\jquery.inputmask.5.0.6.nupkg.sha512",
     "C:\\Users\\dezao\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\dezao\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\dezao\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.0\\microsoft.aspnetcore.razor.language.5.0.0.nupkg.sha512",
