@@ -9,7 +9,7 @@ namespace ProjMVC23082021.Models
         [Key]
         public int Id { get; set; }
         public string Descricao { get; set; }
-        public float Valor { get; set; }
+        public double Valor { get; set; }
         public DateTime DtCadastro { get; set; }
         #endregion
     }
