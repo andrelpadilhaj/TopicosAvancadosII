@@ -1,0 +1,10 @@
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\DBAula23082021\bin\Debug\DBAula23082021.dacpac
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\DBAula23082021\bin\Debug\DBAula23082021.dll
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\DBAula23082021\bin\Debug\DBAula23082021.pdb
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\DBAula23082021\obj\Debug\DBAula23082021.sqlproj.AssemblyReference.cache
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\DBAula23082021\obj\Debug\Model.xml
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\DBAula23082021\obj\Debug\refactor.xml
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\DBAula23082021\obj\Debug\postdeploy.sql
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\DBAula23082021\obj\Debug\predeploy.sql
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\DBAula23082021\obj\Debug\DBAula23082021.dll
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjMVC23082021\DBAula23082021\obj\Debug\DBAula23082021.pdb
