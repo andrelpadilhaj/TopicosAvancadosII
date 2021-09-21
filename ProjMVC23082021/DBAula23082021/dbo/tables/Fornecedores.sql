@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Fornecedores]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1), 
+    [NomeFantasia] VARCHAR(50) NOT NULL, 
+    [CNPJ] VARCHAR(18) NOT NULL
+)
