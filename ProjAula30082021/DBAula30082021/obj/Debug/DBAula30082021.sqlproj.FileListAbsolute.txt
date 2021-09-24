@@ -1,0 +1,6 @@
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjAula30082021\DBAula30082021\bin\Debug\DBAula30082021.dacpac
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjAula30082021\DBAula30082021\bin\Debug\DBAula30082021.dll
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjAula30082021\DBAula30082021\bin\Debug\DBAula30082021.pdb
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjAula30082021\DBAula30082021\obj\Debug\DBAula30082021.sqlproj.AssemblyReference.cache
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjAula30082021\DBAula30082021\obj\Debug\DBAula30082021.dll
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjAula30082021\DBAula30082021\obj\Debug\DBAula30082021.pdb
