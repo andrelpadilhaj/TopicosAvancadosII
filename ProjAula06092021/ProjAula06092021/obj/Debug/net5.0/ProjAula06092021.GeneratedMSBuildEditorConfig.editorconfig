@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = ProjAula06092021
+build_property.ProjectDir = C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjAula06092021\ProjAula06092021\

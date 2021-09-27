@@ -1,0 +1,4 @@
+﻿CREATE TABLE [dbo].[Roupas]
+(
+	[Id] INT NOT NULL PRIMARY KEY
+)
