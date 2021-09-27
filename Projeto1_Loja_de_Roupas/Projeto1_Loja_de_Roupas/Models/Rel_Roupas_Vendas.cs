@@ -17,6 +17,9 @@ namespace Projeto1_Loja_de_Roupas.Models
 
         public virtual Roupas Roupa { get; set; }
         public virtual Vendas Venda { get; set; }
+
+        [NotMapped]
+        public virtual List<SelectListItem> Roupas { get; set; }
         #endregion
     }
 }

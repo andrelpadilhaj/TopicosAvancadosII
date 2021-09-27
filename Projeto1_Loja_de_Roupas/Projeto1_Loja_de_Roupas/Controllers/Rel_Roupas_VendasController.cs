@@ -22,8 +22,13 @@ namespace Projeto1_Loja_de_Roupas.Controllers
         // GET: Rel_Roupas_Vendas
         public async Task<IActionResult> Index()
         {
-            var projeto1_Loja_de_RoupasContext = _context.Rel_Roupas_Vendas.Include(r => r.Roupa).Include(r => r.Venda);
-            return View(await projeto1_Loja_de_RoupasContext.ToListAsync());
+            var venda = _context.Rel_Roupas_Vendas
+                .Include(r => r.Roupa)
+                .Include(t => t.Roupa.Tipo)
+                .Include(r => r.Venda)
+                .ToListAsync();
+
+            return View(await venda);
         }
 
         // GET: Rel_Roupas_Vendas/Details/5
@@ -36,8 +41,11 @@ namespace Projeto1_Loja_de_Roupas.Controllers
 
             var rel_Roupas_Vendas = await _context.Rel_Roupas_Vendas
                 .Include(r => r.Roupa)
+                .Include(t => t.Roupa.Tipo)
                 .Include(r => r.Venda)
+                .Include(c => c.Venda.Cliente)
                 .FirstOrDefaultAsync(m => m.Id == id);
+
             if (rel_Roupas_Vendas == null)
             {
                 return NotFound();
@@ -49,9 +57,25 @@ namespace Projeto1_Loja_de_Roupas.Controllers
         // GET: Rel_Roupas_Vendas/Create
         public IActionResult Create()
         {
-            ViewData["RoupaId"] = new SelectList(_context.Roupas, "Id", "Id");
-            ViewData["VendaId"] = new SelectList(_context.Set<Vendas>(), "Id", "Id");
-            return View();
+            var rel_roupas_venda = new Rel_Roupas_Vendas();
+            rel_roupas_venda.Roupas = new List<SelectListItem>();
+            rel_roupas_venda.Venda = new Vendas();
+            rel_roupas_venda.Venda.Clientes = new List<SelectListItem>();
+
+            var roupas = _context.Roupas.Include(t => t.Tipo).ToList();
+            var clientes = _context.Clientes.ToList();
+
+            foreach (var r in roupas)
+            {
+                rel_roupas_venda.Roupas.Add(new SelectListItem { Text = "Cor: " + r.Cor + " | Descricao: " + r.Tipo.Descricao + " | Valor: " + r.Tipo.Valor.ToString(), Value = r.Id.ToString() });
+            }
+
+            foreach (var c in clientes)
+            {
+                rel_roupas_venda.Venda.Clientes.Add( new SelectListItem { Text = "Nome: " + c.Nome + " | Telefone: " + c.Telefone, Value = c.Id.ToString() });
+            }
+
+            return View(rel_roupas_venda);
         }
 
         // POST: Rel_Roupas_Vendas/Create
@@ -61,14 +85,28 @@ namespace Projeto1_Loja_de_Roupas.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,RoupaId,VendaId,Quantidade")] Rel_Roupas_Vendas rel_Roupas_Vendas)
         {
+            rel_Roupas_Vendas.Venda = new Vendas();
+            int _clientId = int.Parse(Request.Form["Venda.Cliente"].ToString());
+            rel_Roupas_Vendas.Venda.Cliente = _context.Clientes.FirstOrDefault(c => c.Id == _clientId);
+            rel_Roupas_Vendas.Venda.Data = System.DateTime.Now;
+
+            var roupa = _context.Roupas.Include(t => t.Tipo).FirstOrDefault(r => r.Id == rel_Roupas_Vendas.RoupaId);
+
+            rel_Roupas_Vendas.Venda.Valor = rel_Roupas_Vendas.Quantidade * roupa.Tipo.Valor;
+
+            roupa.Quantidade = roupa.Quantidade - rel_Roupas_Vendas.Quantidade;
+
+
             if (ModelState.IsValid)
             {
+                _context.Add(rel_Roupas_Vendas.Venda);
                 _context.Add(rel_Roupas_Vendas);
+                _context.Update(roupa);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["RoupaId"] = new SelectList(_context.Roupas, "Id", "Id", rel_Roupas_Vendas.RoupaId);
-            ViewData["VendaId"] = new SelectList(_context.Set<Vendas>(), "Id", "Id", rel_Roupas_Vendas.VendaId);
+            //ViewData["RoupaId"] = new SelectList(_context.Roupas, "Id", "Id", rel_Roupas_Vendas.RoupaId);
+            //ViewData["VendaId"] = new SelectList(_context.Set<Vendas>(), "Id", "Id", rel_Roupas_Vendas.VendaId);
             return View(rel_Roupas_Vendas);
         }
 

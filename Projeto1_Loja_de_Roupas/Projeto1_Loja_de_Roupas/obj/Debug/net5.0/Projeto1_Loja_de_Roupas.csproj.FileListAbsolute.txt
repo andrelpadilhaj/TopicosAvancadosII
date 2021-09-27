@@ -168,3 +168,8 @@ C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancados
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\Projeto1_Loja_de_Roupas\obj\Debug\net5.0\Razor\Views\Roupas\Edit.cshtml.g.cs
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\Projeto1_Loja_de_Roupas\obj\Debug\net5.0\Razor\Views\Roupas\Index.cshtml.g.cs
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\Projeto1_Loja_de_Roupas\obj\Debug\net5.0\Projeto1_Loja_de_Roupas.csproj.AssemblyReference.cache
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\Projeto1_Loja_de_Roupas\obj\Debug\net5.0\Razor\Views\Rel_Roupas_Vendas\Create.cshtml.g.cs
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\Projeto1_Loja_de_Roupas\obj\Debug\net5.0\Razor\Views\Rel_Roupas_Vendas\Delete.cshtml.g.cs
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\Projeto1_Loja_de_Roupas\obj\Debug\net5.0\Razor\Views\Rel_Roupas_Vendas\Details.cshtml.g.cs
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\Projeto1_Loja_de_Roupas\obj\Debug\net5.0\Razor\Views\Rel_Roupas_Vendas\Edit.cshtml.g.cs
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\Projeto1_Loja_de_Roupas\obj\Debug\net5.0\Razor\Views\Rel_Roupas_Vendas\Index.cshtml.g.cs

@@ -13,6 +13,7 @@ namespace Projeto1_Loja_de_Roupas.Models
         [MaxLength(20)]
         public string Cor { get; set; }
         public int Quantidade { get; set; }
+        public int TipoId { get; set; }
         public virtual Tipos Tipo { get; set; }
         [NotMapped]
         public virtual List<SelectListItem> Tipos { get; set; }

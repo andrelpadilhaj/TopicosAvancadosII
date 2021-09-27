@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dsmbl8Igmt6608F7k8AZ28F2rKPJKEX4OMGcHlYC/vzExTC+eIlHRnLlH5ZpofePUmdBWiUA86dfHR5QhNerjg==",
+  "dgSpecHash": "F0Pls3mVbLPLMgNgCuy6xLUpj5mZIUxZ6OOq6vv21h0e337E1ZaxO2Tdrom3zinPShBHxM8V2K3+9veQFkSNYA==",
   "success": true,
   "projectFilePath": "C:\\Users\\dezao\\OneDrive\\Documentos\\Desenvolvimento\\Faculdade\\C#\\TopicosAvancadosII\\Projeto1_Loja_de_Roupas\\Projeto1_Loja_de_Roupas\\Projeto1_Loja_de_Roupas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dezao\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\dezao\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\dezao\\.nuget\\packages\\jquery\\3.6.0\\jquery.3.6.0.nupkg.sha512",
     "C:\\Users\\dezao\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\dezao\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\dezao\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.0\\microsoft.aspnetcore.razor.language.5.0.0.nupkg.sha512",

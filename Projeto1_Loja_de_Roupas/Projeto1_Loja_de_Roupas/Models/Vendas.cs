@@ -13,6 +13,7 @@ namespace Projeto1_Loja_de_Roupas.Models
         public int Id { get; set; }
         public double Valor { get; set; }
         public DateTime Data { get; set; }
+        public int ClienteId {get;set;}
         public virtual Clientes Cliente { get; set; }
         [NotMapped]
         public virtual List<SelectListItem> Clientes { get; set; }

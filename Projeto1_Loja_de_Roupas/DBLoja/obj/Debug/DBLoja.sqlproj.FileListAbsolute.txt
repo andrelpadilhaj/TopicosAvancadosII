@@ -1,0 +1,9 @@
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\DBLoja\bin\Debug\DBLoja.dacpac
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\DBLoja\bin\Debug\DBLoja.dll
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\DBLoja\bin\Debug\DBLoja.pdb
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\DBLoja\obj\Debug\DBLoja.dll
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\DBLoja\obj\Debug\DBLoja.pdb
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\DBLoja\obj\Debug\Model.xml
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\DBLoja\obj\Debug\refactor.xml
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\DBLoja\obj\Debug\postdeploy.sql
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\DBLoja\obj\Debug\predeploy.sql

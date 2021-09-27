@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Clientes] (Table)
+       [dbo].[Rel_Roupas_Vendas] (Table)
+       [dbo].[Roupas] (Table)
+       [dbo].[Tipos] (Table)
+       [dbo].[Vendas] (Table)
+       [dbo].[FK_Rel_Roupas_Vendas->Roupas] (Foreign Key)
+       [dbo].[FK_Rel_Roupas_Vendas->Vendas] (Foreign Key)
+       [dbo].[FK_Roupas->Tipos] (Foreign Key)
+       [dbo].[FK_Vendas->Clientes] (Foreign Key)
+
+** Supporting actions
