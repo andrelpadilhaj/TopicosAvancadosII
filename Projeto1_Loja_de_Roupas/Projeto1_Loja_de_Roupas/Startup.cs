@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Projeto1_Loja_de_Roupas.Data;
 
 namespace Projeto1_Loja_de_Roupas
 {
@@ -24,6 +26,9 @@ namespace Projeto1_Loja_de_Roupas
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddDbContext<Projeto1_Loja_de_RoupasContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("Projeto1_Loja_de_RoupasContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,6 +56,7 @@ namespace Projeto1_Loja_de_Roupas
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllers();
             });
         }
     }
