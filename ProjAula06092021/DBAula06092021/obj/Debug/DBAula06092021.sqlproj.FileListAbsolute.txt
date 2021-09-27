@@ -1,0 +1,9 @@
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjAula06092021\DBAula06092021\bin\Debug\DBAula06092021.dacpac
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjAula06092021\DBAula06092021\bin\Debug\DBAula06092021.dll
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjAula06092021\DBAula06092021\bin\Debug\DBAula06092021.pdb
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjAula06092021\DBAula06092021\obj\Debug\Model.xml
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjAula06092021\DBAula06092021\obj\Debug\refactor.xml
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjAula06092021\DBAula06092021\obj\Debug\postdeploy.sql
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjAula06092021\DBAula06092021\obj\Debug\predeploy.sql
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjAula06092021\DBAula06092021\obj\Debug\DBAula06092021.dll
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\ProjAula06092021\DBAula06092021\obj\Debug\DBAula06092021.pdb
