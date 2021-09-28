@@ -22,13 +22,11 @@ namespace Projeto1_Loja_de_Roupas.Controllers
         // GET: Rel_Roupas_Vendas
         public async Task<IActionResult> Index()
         {
-            var venda = _context.Rel_Roupas_Vendas
+            return View(await _context.Rel_Roupas_Vendas
                 .Include(r => r.Roupa)
                 .Include(t => t.Roupa.Tipo)
                 .Include(r => r.Venda)
-                .ToListAsync();
-
-            return View(await venda);
+                .ToListAsync());
         }
 
         // GET: Rel_Roupas_Vendas/Details/5
@@ -105,8 +103,6 @@ namespace Projeto1_Loja_de_Roupas.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            //ViewData["RoupaId"] = new SelectList(_context.Roupas, "Id", "Id", rel_Roupas_Vendas.RoupaId);
-            //ViewData["VendaId"] = new SelectList(_context.Set<Vendas>(), "Id", "Id", rel_Roupas_Vendas.VendaId);
             return View(rel_Roupas_Vendas);
         }
 

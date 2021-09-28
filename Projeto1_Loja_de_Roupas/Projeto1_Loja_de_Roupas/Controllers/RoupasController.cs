@@ -71,9 +71,18 @@ namespace Projeto1_Loja_de_Roupas.Controllers
             var tipo = _context.Tipos.FirstOrDefault(t => t.Id == _tipoId);
             roupas.Tipo = tipo;
 
+            var roupa = _context.Roupas.FirstOrDefault(r => r.Cor == roupas.Cor && r.TipoId == roupas.Tipo.Id) ;
+
             if (ModelState.IsValid)
             {
-                _context.Add(roupas);
+                if (roupa == null)
+                {
+                    _context.Add(roupas);
+                } else
+                {
+                    roupa.Quantidade = roupas.Quantidade + roupa.Quantidade;
+                    _context.Update(roupa);
+                }
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }

@@ -275,16 +275,7 @@
 					<Element Type="SqlIndexedColumnSpecification">
 						<Relationship Name="Column">
 							<Entry>
-								<References Name="[dbo].[Rel_Roupas_Vendas].[RoupaId]" />
-							</Entry>
-						</Relationship>
-					</Element>
-				</Entry>
-				<Entry>
-					<Element Type="SqlIndexedColumnSpecification">
-						<Relationship Name="Column">
-							<Entry>
-								<References Name="[dbo].[Rel_Roupas_Vendas].[VendaId]" />
+								<References Name="[dbo].[Rel_Roupas_Vendas].[Id]" />
 							</Entry>
 						</Relationship>
 					</Element>
@@ -358,6 +349,23 @@
 			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Relationship Name="Columns">
 				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Rel_Roupas_Vendas].[Id]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
 					<Element Type="SqlSimpleColumn" Name="[dbo].[Rel_Roupas_Vendas].[RoupaId]">
 						<Property Name="IsNullable" Value="False" />
 						<Relationship Name="TypeSpecifier">
@@ -389,6 +397,22 @@
 						</Relationship>
 					</Element>
 				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Rel_Roupas_Vendas].[Quantidade]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
 			</Relationship>
 			<Relationship Name="Schema">
 				<Entry>
@@ -396,8 +420,8 @@
 				</Entry>
 			</Relationship>
 			<AttachedAnnotation Disambiguator="10" />
-			<AttachedAnnotation Disambiguator="6" />
 			<AttachedAnnotation Disambiguator="7" />
+			<AttachedAnnotation Disambiguator="6" />
 		</Element>
 		<Element Type="SqlTable" Name="[dbo].[Roupas]">
 			<Property Name="IsAnsiNullsOn" Value="True" />

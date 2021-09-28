@@ -3,6 +3,7 @@ C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancados
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\DBLoja\bin\Debug\DBLoja.pdb
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\DBLoja\obj\Debug\DBLoja.dll
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\DBLoja\obj\Debug\DBLoja.pdb
+C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\DBLoja\obj\Debug\DBLoja.sqlproj.AssemblyReference.cache
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\DBLoja\obj\Debug\Model.xml
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\DBLoja\obj\Debug\refactor.xml
 C:\Users\dezao\OneDrive\Documentos\Desenvolvimento\Faculdade\C#\TopicosAvancadosII\Projeto1_Loja_de_Roupas\DBLoja\obj\Debug\postdeploy.sql
