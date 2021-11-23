@@ -1,0 +1,45 @@
+﻿@model ProjetoP2_Sistema_CafeteriaV1._1.Models.Pedidos
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Pedidos</h4>
+<hr />
+<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+    <ul class="navbar-nav flex-grow-1">
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-action="Index">Voltar</a>
+        </li>
+    </ul>
+</div>
+<br />
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MesaId" class="control-label"></label>
+                <select asp-for="MesaId" class="form-control" asp-items="@Model._SelectMesa">
+                    <option>Selecione...</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="FuncionarioId" class="control-label"></label>
+                <select asp-for="FuncionarioId" class="form-control" asp-items="@Model._SelectFuncionario">
+                    <option>Selecione...</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Lançar Pedido" class="btn btn-outline-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

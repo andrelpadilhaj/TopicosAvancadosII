@@ -1,0 +1,68 @@
+﻿@model IEnumerable<ProjetoP2_Sistema_CafeteriaV1._1.Models.Pedidos>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<hr />
+<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+    <ul class="navbar-nav flex-grow-1">
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-action="Index">Voltar</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-action="Create">Novo Pedido</a>
+        </li>
+    </ul>
+</div>
+<br />
+<hr />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DataHoraAbertura)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataHoraFechamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Total)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model._Mesa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model._Funcionario)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataHoraAbertura)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataHoraFechamento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Total)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item._Mesa.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item._Funcionario.Id)
+                </td>
+                <td>
+                    <a class="btn btn-outline-secondary" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

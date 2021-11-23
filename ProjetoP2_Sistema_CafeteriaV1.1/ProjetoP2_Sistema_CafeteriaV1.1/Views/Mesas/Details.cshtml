@@ -1,0 +1,39 @@
+﻿@model ProjetoP2_Sistema_CafeteriaV1._1.Models.Mesas
+
+@{
+    ViewData["Title"] = "Mesas";
+}
+
+<h1>Detalhes</h1>
+<hr />
+<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+    <ul class="navbar-nav flex-grow-1">
+        <li class="nav-item">
+            <a class="btn btn-outline-primary" asp-action="Index">Voltar</a>
+        </li>
+    </ul>
+</div>
+<br />
+<hr />
+<div>
+    <h4>Mesas</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NumCadeiras)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NumCadeiras)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model._Status)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model._Status.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@Model.Id">Editar</a>
+    <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@Model.Id">Deletar</a>
+</div>

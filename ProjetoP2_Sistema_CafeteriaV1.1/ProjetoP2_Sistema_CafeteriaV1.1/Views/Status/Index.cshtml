@@ -1,0 +1,43 @@
+﻿@model IEnumerable<ProjetoP2_Sistema_CafeteriaV1._1.Models.Status>
+
+@{
+    ViewData["Title"] = "Mesas";
+}
+
+<h1>Status</h1>
+
+<hr />
+<hr />
+<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+    <ul class="navbar-nav flex-grow-1">
+        <li class="nav-item">
+            <a class="btn btn-outline-primary" asp-controller="Mesas" asp-action="Index">Voltar</a>
+        </li>
+    </ul>
+</div>
+<br />
+<hr />
+<table class="table table-bordered table-hover table-sm">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody class="table-striped">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </td>
+                <td class="text-center">
+                    <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                    <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id">Deletar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

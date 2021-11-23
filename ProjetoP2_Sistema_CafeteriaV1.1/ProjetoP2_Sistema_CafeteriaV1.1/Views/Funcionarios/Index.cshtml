@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ProjetoP2_Sistema_CafeteriaV1._1.Models.Funcionarios>
+
+@{
+    ViewData["Title"] = "Funcionarios";
+}
+
+<h1>Funcionarios</h1>
+<hr />
+<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+    <ul class="navbar-nav flex-grow-1">
+        <li class="nav-item">
+            <a class="btn btn-primary" asp-action="Create">Cadastrar Funcionario</a>
+        </li>
+    </ul>
+</div>
+<br />
+<hr />
+<table class="table table-bordered table-hover table-sm">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Sobrenome)
+            </th>
+            <th scope="col">
+                Ações
+            </th>
+        </tr>
+    </thead>
+    <tbody class="table-striped">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sobrenome)
+                </td>
+                <td class="text-center">
+                    <a class="btn btn-outline-primary" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

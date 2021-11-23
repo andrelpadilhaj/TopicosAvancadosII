@@ -1,0 +1,111 @@
+﻿@model ProjetoP2_Sistema_CafeteriaV1._1.Models.Pedidos
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<hr />
+<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+    <ul class="navbar-nav flex-grow-1">
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-action="Index">Voltar</a>
+        </li>
+    </ul>
+</div>
+<br />
+<hr />
+<div>
+    <h4>Pedidos</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DataHoraAbertura)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DataHoraAbertura)
+        </dd>
+        @if (Model.DataHoraFechamento != null)
+        {
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.DataHoraFechamento)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.DataHoraFechamento)
+            </dd>
+        }
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Total)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Total)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model._Mesa)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model._Mesa.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model._Funcionario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model._Funcionario.Nome)
+        </dd>
+    </dl>
+    <br />
+    @if (Model.DataHoraFechamento == null)
+    {
+        <div>
+            <a class="btn btn-outline-danger" asp-controller="Pedidos" asp-action="Close" asp-route-id="@Model.Id">Fechar Pedido</a>
+        </div>
+        <br />
+        <hr />
+        <br />
+        <h4>Produtos</h4>
+        <div>
+            <a class="btn btn-outline-primary" asp-controller="RelPedidosProdutos" asp-action="Create" asp-route-id="@Model.Id">Adicionar Produto ao Pedido</a>
+        </div>
+    }
+    <hr />
+    @if (Model._ListPedidosProdutos.Count > 0)
+    {
+        <table class="table table-bordered table-hover table-sm">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col">
+                        Nome
+                    </th>
+                    <th scope="col">
+                        Descricao
+                    </th>
+                    <th scope="col">
+                        Quantidade
+                    </th>
+                    <th scope="col">
+                        Subtotal
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="table-striped">
+                @foreach (var item in Model._ListPedidosProdutos)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item._Produto.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item._Produto.Descricao)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Quantidade)
+                        </td>
+                        <td>
+                            @(item.Quantidade * item._Produto.Valor)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
